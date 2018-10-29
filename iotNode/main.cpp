@@ -11,25 +11,35 @@ int main()
 {
    // iotDataQueue temperature, humidity; //create two queue objects
     //iotDataQueue obj1=iotDataQueue(10,'Temp')
-    std::string name;
-    std::string name2;
+    std::string humidRecord1;
+    std::string humidRecord2;
+    std::string tempRecord1;
+    std::string tempRecord2;
     //Humidity h= new Humidity();
 
-    Humidity hh,h2;
-    Temperature t;
+    Humidity h1,h2;
+    Temperature t1,t2;
 
 
-    hh.add_data(34,"hello");
-    h2.add_data(23,"world");
+    h1.add_data(25,"Moist");
+    h2.add_data(8,"Dry");
 
-    name=hh.retrieve_data();
-    cout<<"The Humidity Recording is "<<name<<endl;
+    humidRecord1=h1.retrieve_data();
+    humidRecord2=h2.retrieve_data();
 
-    t.add_data(23,"temp");
-    name2=t.retrieve_data();
-    cout<<"The temp recording is " << name2<<endl;
+    cout<<"The first Humidity Recording is "<<humidRecord1<<endl;
+    cout<<"The second Humidity Recording is "<<humidRecord2<<endl;
 
-    cout<<"The total number of recordings are "<<iotDataQueue::c<<endl;
+    t1.add_data(32,"High");
+    t2.add_data(15,"Low");
+
+    tempRecord1=t1.retrieve_data();
+    tempRecord2=t2.retrieve_data();
+
+    cout<<"The first temperature recording is " << tempRecord1<<endl;
+    cout<<"The second temperature recording is " << tempRecord2<<endl;
+
+    cout<<"The total number of recordings in the queue are "<<iotDataQueue::c<<endl;
 
     //temperature.init();
     //humidity.init();
