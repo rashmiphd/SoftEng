@@ -29,7 +29,7 @@ int main()
     name2=t.retrieve_data();
     cout<<"The temp recording is " << name2<<endl;
 
-    cout<<"The total number of recordings are"<<iotDataQueue::c<<endl;
+    cout<<"The total number of recordings are "<<iotDataQueue::c<<endl;
 
     //temperature.init();
     //humidity.init();

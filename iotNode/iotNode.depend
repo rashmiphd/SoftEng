@@ -38,3 +38,26 @@
 	"Humidity.h"
 	<string>
 
+1540459757 source:c:\users\administrator\downloads\portablegit\softeng\iotnode\src\humidity.cpp
+	<iostream>
+	"Humidity.h"
+	<string>
+
+1540458838 c:\users\administrator\downloads\portablegit\softeng\iotnode\include\humidity.h
+	"iotDataQueue.h"
+	<string>
+
+1540459660 c:\users\administrator\downloads\portablegit\softeng\iotnode\include\iotdataqueue.h
+
+1540459656 source:c:\users\administrator\downloads\portablegit\softeng\iotnode\src\iotdataqueue.cpp
+	<iostream>
+	<string>
+	"iotDataQueue.h"
+
+1540459762 source:c:\users\administrator\downloads\portablegit\softeng\iotnode\src\temperature.cpp
+	<iostream>
+	"Temperature.h"
+
+1540458836 c:\users\administrator\downloads\portablegit\softeng\iotnode\include\temperature.h
+	"iotDataQueue.h"
+
