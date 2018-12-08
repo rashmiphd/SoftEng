@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1544279243 source:c:\users\administrator\desktop\softeng\nodec++\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
